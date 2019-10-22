@@ -13,7 +13,7 @@ The expected output is:
 -- 100 --
 ```
 
-However, due to mismatched bs-platforms between @ryb73/bs-51-52-interop-b and its dependency, @ryb73/bs-51-52-interop-a, the output is:
+However, due to mismatched bs-platforms between `@ryb73/bs-51-52-interop-b` and its dependency, `@ryb73/bs-51-52-interop-a`, the output is:
 ```
 -- undefined --
 ```
