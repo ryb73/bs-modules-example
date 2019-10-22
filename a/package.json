@@ -1,0 +1,25 @@
+{
+  "name": "@ryb73/bs-51-52-interop-a",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "/bsconfig.json",
+    "/src",
+    "/lib/js/src"
+  ],
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "rm -rf lib && bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.1.0"
+  }
+}

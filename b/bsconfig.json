@@ -1,0 +1,15 @@
+{
+  "name": "@ryb73/bs-51-52-interop-b",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "bs-dependencies": [
+    "@ryb73/bs-51-52-interop-a"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
